@@ -1,0 +1,27 @@
+/* custom css for bootstrap */
+
+
+/* over rides */
+
+a {
+  color: #39bb9d;
+}
+
+.navbar-default {
+  background: #fff;
+  border-color: #39bb9d;
+}
+
+  .navbar-default .navbar-nav>li>a {
+    color: #808285;
+  }
+  .navbar-default .navbar-nav>li>a:hover,
+  .navbar-default .navbar-nav>li>a:focus {
+    color: #39bb9d;
+  }
+  .navbar-default .navbar-nav>.active>a,
+  .navbar-default .navbar-nav>.active>a:hover,
+  .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background: #39bb9d;
+  }
